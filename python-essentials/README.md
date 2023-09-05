@@ -38,3 +38,30 @@ it is used to store multiple items in a single variable
 they are surrounded by brackets and each item is separated by a comma
 eg: food = ["pizza", "carrots", "eggs"]
 here food is the variable and the items are in the brackets
+
+3. Arguments
+functions can receive data this data is called an argument
+
+4. if statement
+allows a computer to do different things deppending on the program.
+
+5. Concatenating stings
+is a way to combine strings with other strings or variables
+eg: print("You Chose: " + player + ", Computer Chose: " + computer)
+
+6. F string
+is also away of combining strings with variables.
+eg: age = 25 we ahve assigned string 25 to variable age
+print(f"he is {age} years old.")
+f string is a simple way to concatenate strings and variables
+
+7. else and elif
+
+8. Refactoring and nested if
+refactoring is the proccess of restructuring code while keeping the same functionality
+
+9. How to access something specific in a dictionary
+lets say we have a dictionary :
+choices = {"player": "rock", "comuper": "paper"}
+to access lets say only the players choice we say
+p_choice = choices["player"]
