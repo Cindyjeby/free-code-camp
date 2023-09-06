@@ -25,6 +25,15 @@ eg: dict = {"name": "beau", "color": choices}
 - when sorounded by quotes it meants its a string if not it is a variable.
 - key can be any value eg a string, number or a tuple. also the value can be anything.
 
+SETS
+- Can be changed
+- Almost like dictionaries.
+- Thedifference is in a dict it has curly braces and a colon while sets has currly braces but is separates the items using a comma
+eg: name = {"cindy", "jeby"}
+- A set can not have 2 of the same items
+- if you combine 2 sets that have the same name in common it will only print it once.
+
+
  USER INPUT
  we use input() to ask the user to give as there input.
 

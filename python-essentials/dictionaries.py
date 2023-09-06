@@ -25,3 +25,25 @@ laptop["Hard drive"] = "512ssd"#adds a new item to the dict
 print(laptop)
 laptopCopy = laptop.copy()#copies the dict
 print(laptop)
+print("\n")
+
+#SETS
+names1 = {"Cindy", "Jeby", "Red"}
+names2 = {"Cindy", "Monday", "Blue"}
+
+intersect = names1 & names2
+print(intersect)#prints what the 2 sets have in comon
+mod = names1 | names2
+print(mod)#prints both sets combined
+print("\n")
+
+set1 = {"water", "bender"}
+set2 = {"water"}
+sets = set1 - set2 
+print(sets)#prints the difference
+
+#checks if a set is a superset or a subset
+sets = set1 > set2
+print(sets)
+sets = set1 < set2
+print(sets)
