@@ -65,3 +65,58 @@ lets say we have a dictionary :
 choices = {"player": "rock", "comuper": "paper"}
 to access lets say only the players choice we say
 p_choice = choices["player"]
+
+VARIABLE.py
+a variable name can contain anything in it. number or name
+to make it it can have number init name but not at the begining.
+eg: name_1 = age this is avariable that is assigned a value age
+
+EXPRESSIONS AND STATEMENTS
+expression is any code that returns a value
+statement is an operation of a value
+
+COMMENTS
+we use the hash sign to make comments in python.
+everything after the hash is not run as code .
+
+DATA TYPES
+to check what type of data type :
+lets say we want to check name = "cindy" what data type this is we run print(type(name)) the output will be str which means string
+
+OPERATORS.PY
+1. Assing operator: is the eqaul sign =
+2. Arithmetic operators: +, -, *, /, 
+3. Comparison oparators: ==, !=, >, <, <=, >=
+4. Boolean operators: not, and, or
+   . Not- is used when something is not true
+   . And - is used when both conditions are true, if one is not true the output of the whole thing is false
+   . or - if either of the conditions is true the output is true.
+5. Bitwise operators: &(and), |(or), ^(xor), ~(not), <<(shift left), >>(shift right)
+6. Is & in operators:
+   . is - thisis theidentity opeartor. it compares two objects and returns true if both objects are the same.
+   . in - used to identify if a value is contained in another list or sequence.
+7. ternary operator: 
+basically this is its structure:
+      def is_adult(age):
+           return True if age > 18 else False
+
+NUMBER DATA TYPES
+complex number: all numbers are expressed as a sum of a real part and imaginary part
+
+ENUMS
+readable names that are bound to a constant value
+to use it you have to import it
+eg: from enum import enum
+
+STRINGS
+this is a series of characters enclosed in a single or double qoutes
+eg: "cindy", 'cindy', "20", '20' 
+\n: new line
+1. string characters & slicing
+      . eg: name = "cindy is cool"
+            print(name)
+    to get a specific character we use index:
+    index[o, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+    name [c, i, n, d, y, i, s, c, o, o, l]
+    so to get a specific char we can print(name[3])and the output will be [d],
+    also to get say the last letter we can print(name[-1]) the output will be [l]
