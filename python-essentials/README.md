@@ -16,16 +16,17 @@ eg: choices = get_choices()
 print(choices)
 
 DICTIONARIES
-they are used to store data values in key value pairs
-it uses curly braces
+- They are used to store data values in key value pairs
+- it uses curly braces
 eg: dict = {"name": "beau", "color": "blue"}
-in this case name and color are the key while beau and blue are the values
-the value can also bea variable
+- in this case name and color are the key while beau and blue are the values
+- the value can also be a variable
 eg: dict = {"name": "beau", "color": choices}
- when sorounded by quotes itmeants its a string if not it is a variable and in this example it calls line 7.
+- when sorounded by quotes it meants its a string if not it is a variable.
+- key can be any value eg a string, number or a tuple. also the value can be anything.
 
  USER INPUT
- we use input() to ask the userto give as there input.
+ we use input() to ask the user to give as there input.
 
  to ask the computer for input we need libraries, lists, methods
  1. Libraries
@@ -33,11 +34,12 @@ eg: dict = {"name": "beau", "color": choices}
 
 for this we are going to use the random library. we will import it
 
-2. Lists
-it is used to store multiple items in a single variable
+2. Lists (lists.py)
+- it is used to store multiple items in a single variable
 they are surrounded by brackets and each item is separated by a comma
-eg: food = ["pizza", "carrots", "eggs"]
-here food is the variable and the items are in the brackets
+- eg: food = ["pizza", "carrots", "eggs"]
+- here food is the variable and the items are in the brackets
+- we use the "in" operator to chech for items in a list.
 
 3. Arguments
 functions can receive data this data is called an argument
@@ -65,6 +67,13 @@ lets say we have a dictionary :
 choices = {"player": "rock", "comuper": "paper"}
 to access lets say only the players choice we say
 p_choice = choices["player"]
+
+10. Tuples (lists.py)
+- They allow one to create an emmudable groups of objects.
+- Once created can not be changed,added or removed
+- Other than that everything else works the same as lists
+- You can create a new touple from the old one and add new items into it while creating it
+
 
 VARIABLE.py
 a variable name can contain anything in it. number or name
@@ -106,7 +115,7 @@ complex number: all numbers are expressed as a sum of a real part and imaginary 
 ENUMS
 readable names that are bound to a constant value
 to use it you have to import it
-eg: from enum import enum
+eg: from enum import Enum
 
 STRINGS
 this is a series of characters enclosed in a single or double qoutes
@@ -120,3 +129,4 @@ eg: "cindy", 'cindy', "20", '20'
     name [c, i, n, d, y, i, s, c, o, o, l]
     so to get a specific char we can print(name[3])and the output will be [d],
     also to get say the last letter we can print(name[-1]) the output will be [l]
+
