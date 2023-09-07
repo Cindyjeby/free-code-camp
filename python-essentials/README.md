@@ -15,6 +15,21 @@ we now call the get_choices function and print its output.
 eg: choices = get_choices()
 print(choices)
 
+FUNCTIONS
+- This is a set of code that only works when called.
+- For a function to work it need to be called
+- Functions can accept different parameters. and the parameter becomes a variable that can be used.
+- Parameters - are values accepted by the function inside the function definition
+- Arguments - are values we pass to the function when we call it.
+- Functions can also be nested in other functions. nested functions are only visible in that particular function
+
+CLOSURE
+- allows a function to remember the environment in which it was created and access variables from that environment, even after the enclosing function has finished executing.
+
+OBJECTS
+- everything is an object.
+- they have attributes and methods
+
 DICTIONARIES
 - They are used to store data values in key value pairs
 - it uses curly braces
@@ -88,6 +103,10 @@ VARIABLE.py
 a variable name can contain anything in it. number or name
 to make it it can have number init name but not at the begining.
 eg: name_1 = age this is avariable that is assigned a value age
+
+GLOBAL  AND LOCAL VARIABLES
+- Global -> Are declared outside of a function hence can be used in anypart of that program.
+- Local -> Are declared inside of afunction and can onlybe used in that function.
 
 EXPRESSIONS AND STATEMENTS
 expression is any code that returns a value

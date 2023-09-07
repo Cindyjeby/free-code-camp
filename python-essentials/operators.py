@@ -20,3 +20,10 @@ print(State.ACTIVE.value)#prints 1
 print(State.INACTIVE.value)#prints 0
 print(list(State))
 print(len(State))
+
+#Int objects
+age = 8
+print(age.real)
+print(age.imag)
+print(age.bit_count())
+print(age.bit_length())
