@@ -4,6 +4,9 @@ This folder contains my learning journey on python.
 I used materials from cisco networking academy, and lots of youtube videos mainly Free code camp.
 
 rock-paper-scissors
+This is just a small game i made using some of the things i have learned below.
+
+
 in this file we lean how to create variables and strings and call functions.
 
 we first create  a function: this is a set of code that only works when called.
@@ -26,7 +29,7 @@ FUNCTIONS
 CLOSURE
 - allows a function to remember the environment in which it was created and access variables from that environment, even after the enclosing function has finished executing.
 
-OBJECTS
+OBJECTS(instances)
 - everything is an object.
 - they have attributes and methods
 
@@ -158,3 +161,20 @@ eg: "cindy", 'cindy', "20", '20'
     so to get a specific char we can print(name[3])and the output will be [d],
     also to get say the last letter we can print(name[-1]) the output will be [l]
 
+LOOPS
+1. While loop
+      - are defined using while
+      - they repeat the loop until the outcome is False.
+2. For loop
+      - commonly used to repeat items in a list.
+      - or can use range function to specify  the number of times it should repeat
+      - we use enumerate to return the index of the list
+
+      . CONTINUE & BREAK
+      ->both while and for loops can be interapted using break and continue.
+      -> continue: tells python to stop the current iretaration and tells it to continue to the next
+      -> break: stops the loop 
+
+CLASSES
+- according to chat gpt: a class is a blueprint for creating objects.
+- it defines a set of attributes and methods that the objects of the class will have.
