@@ -178,3 +178,6 @@ LOOPS
 CLASSES
 - according to chat gpt: a class is a blueprint for creating objects.
 - it defines a set of attributes and methods that the objects of the class will have.
+- special type of method called "__init__" which is a constructor.
+- classes can also inherite from each other.
+
