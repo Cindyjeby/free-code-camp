@@ -68,6 +68,9 @@ they are surrounded by brackets and each item is separated by a comma
 - here food is the variable and the items are in the brackets
 - we use the "in" operator to chech for items in a list.
 
+-> List Compressions
+
+
 3. Arguments
 functions can receive data this data is called an argument
 

@@ -60,3 +60,10 @@ expenses = [
 ]
 sum = reduce(lambda a, b: a[1] + b[1], expenses)
 print(sum)
+print("\n")
+
+#List compressions
+print("List compression outputs:")
+nums = [1, 2, 3, 4, 5]
+nums_power_2 = [n**2 for n in nums]
+print(nums_power_2)
