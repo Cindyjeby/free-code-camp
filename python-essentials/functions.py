@@ -29,3 +29,19 @@ increment = counter()
 print(increment())#1
 print(increment())#2
 print(increment())#3
+print("\n")
+
+#decorators
+def logtime(func):
+    def wrapper():
+        print("before deco")
+        val = func()
+        print("after deco")
+        return val
+    return wrapper
+
+@logtime
+def bye():
+    print("Good Bye")
+
+bye()

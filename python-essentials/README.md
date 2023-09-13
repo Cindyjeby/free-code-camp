@@ -181,3 +181,44 @@ CLASSES
 - special type of method called "__init__" which is a constructor.
 - classes can also inherite from each other.
 
+MODULES
+- Every python file is a module, one can import a module from a file
+- Helps in code reuse
+- Eg: if you have to files say first.py and second.py and you want to use first.py in second.py you import in to the second.py by adding this line of code into the socond.py file [import first.py], then call a specific function say [first.laptop()]
+- Also you can import by saying [from first import laptop], this also imports a specific function from the first.py file to the second.py file, then tocall the specific function say [laptop()]
+- Also say you have first.py in a sub folder called sub, an you want to import it to second.py which is not in the subfolder, in second.py you write this line of code [from lib import first] then to call the specific folder we use [first.laptop()]
+- or on the same you can just say [from lib.first import laptop] then to call it use [laptop()]
+
+- there are also STANDARD MODULE that have already been intergrated in python that you can import easily
+eg: math, random, json, datetime and many more.
+
+COMMAND LINE AKA TERMINAL.
+
+LAMBDA FUNCTIONS (operations.py)
+- are also called anonymous functions
+- Defined using the lambda key word
+- used when you need a quick, throwaway function for a short task
+- its syntax: lambda argument : expression
+- lambda functions are sometimes used with functions that accept other functions eg: map(), filter(), sorted(), reduce()
+- To use reduce we have to import it first.
+
+RECURSION
+- we use a factorial.
+
+DECORATORS (functions.py)
+- is a way to change, inhance or alter in any way how a function works.
+- They are defined with the @ symbol followed by the decorator name just before the function definition.
+
+DOCSTRINGS
+- Something like comments, reminds you what the code was supposed to do.
+- We put the description in btwn 3 double quotes
+
+ANNOTATION
+- Are a way to provide additional information about the arguments and return values of functions.
+- Annotations are optional and are specified using colons (:) after the parameter or return value, followed by an expression or type hint.
+- They can be used to clarify the expected types or purposes of function arguments and return values.
+- python generally iggnors this annotations
+
+EXCEPTIONS
+- Is a way to handle errors in python
+- you can add some except block to check if there is a specific error in that code block
