@@ -1,0 +1,1 @@
+This folder contains my journey as i complete various responsive tasks while trying to learn how to make a responsive web site using html and css
