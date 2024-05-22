@@ -14,7 +14,7 @@ function increment() {
 function save() {
     let countStr = count + " - "
     saveEl.textContent += countStr
+    // resets counter after saved
     countEl.textContent = 0
     count = 0
 }
-
