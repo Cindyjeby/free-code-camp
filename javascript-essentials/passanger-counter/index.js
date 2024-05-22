@@ -1,17 +1,18 @@
 // adds the people entered
 
 let countEl = document.getElementById("count-el")
-console.log(countEl)
+let saveEl = document.getElementById("save-el")
 
 let count = 0
 
 function increment() {
-    count = count + 1
+    count += 1
     countEl.innerText = count
 }
 
 //saves the people entered
 function save() {
-    console.log(count)
+    let countStr = count + " - "
+    saveEl.innerText += countStr
 }
 
