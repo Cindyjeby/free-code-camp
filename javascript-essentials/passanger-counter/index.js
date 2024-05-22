@@ -7,12 +7,14 @@ let count = 0
 
 function increment() {
     count += 1
-    countEl.innerText = count
+    countEl.textContent = count
 }
 
 //saves the people entered
 function save() {
     let countStr = count + " - "
-    saveEl.innerText += countStr
+    saveEl.textContent += countStr
+    countEl.textContent = 0
+    count = 0
 }
 
